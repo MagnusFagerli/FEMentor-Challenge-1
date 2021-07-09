@@ -1,0 +1,63 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+.card {
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  width: 330px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  text-align: center;
+}
+
+.insight {
+  color: hsl(277, 64%, 61%);
+}
+
+.bigbold {
+  font-size: 16px;
+}
+
+h4 {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+}
+
+.numbers {
+  color: hsl(0, 0%, 100%);
+  display: block;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+}
+
+.mobile {
+  width: 330px;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.desktop {
+  display: none;
+}
+
+.attribution {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+}
